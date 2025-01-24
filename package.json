@@ -6,7 +6,7 @@
   "dev": "vite",
   "build": "vite build",
   "serve": "vite preview"
-},
+}, 
   "repository": {
     "type": "git",
     "url": "https://github.com/alok1047/e-commerce-fa.git"
