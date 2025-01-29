@@ -78,3 +78,22 @@ Server Setup: We initialized a Node.js server using the Express framework. The s
 Database Connection: We integrated MongoDB into the project to store and manage data. The server is now connected to MongoDB, enabling efficient data storage and retrieval.
 
 Error Handling: Basic error-handling mechanisms were added to ensure that the server can respond with clear error messages for better debugging and user feedback.
+
+Milestone 7:
+
+In this milestone, I implemented a secure login authentication system with password hashing using bcrypt. The functionality includes:
+	1.	User Registration:
+	•	Users can register by providing a username and password.
+	•	The password is securely hashed before being stored in the database using bcrypt.
+	2.	User Login:
+	•	Users can log in with their username and password.
+	•	The entered password is hashed using bcrypt and compared with the stored hashed password in the database.
+	•	If the credentials match, the user is authenticated and can proceed further in the application.
+	•	If the credentials are invalid, an error message is returned.
+	3.	Security Features:
+	•	Passwords are never stored in plain text; they are hashed using the bcrypt algorithm.
+	•	This ensures that even if the database is compromised, user passwords remain secure.
+
+The main goal of this milestone was to establish a secure login system that validates user credentials and ensures the safety of sensitive user data. In the next milestone, I plan to integrate additional security features, such as JWT-based user sessions.
+
+

@@ -5,12 +5,12 @@ import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
 import ValidationFormObject from "../../validation";
 const Signup = () => {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
-  const [visible, setVisible] = useState(false);
-  const [avatar, setAvatar] = useState(null);
-  const [errors, setErrors] = useState({});
+    const [email, setEmail] = useState("");
+    const [name, setName] = useState("");
+    const [password, setPassword] = useState("");
+    const [visible, setVisible] = useState(false);
+    const [avatar, setAvatar] = useState(null);
+    const [errors, setErrors] = useState({});
   const handleFileSubmit = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -53,6 +53,7 @@ const Signup = () => {
       console.log(err);
     })
 };
+
 return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -127,7 +128,8 @@ return (
                     errors.password ? "border-red-500" : "border-gray-300"
                   } rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm`}
                 />
-                {visible ? (
+
+{visible ? (
                   <AiOutlineEye
                     className="absolute right-2 top-2 cursor-pointer"
                     size={25}
