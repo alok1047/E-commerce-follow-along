@@ -97,3 +97,30 @@ In this milestone, I implemented a secure login authentication system with passw
 The main goal of this milestone was to establish a secure login system that validates user credentials and ensures the safety of sensitive user data. In the next milestone, I plan to integrate additional security features, such as JWT-based user sessions.
 
 
+milestone 8: card component 🎯
+
+goals
+
+create & display card components.
+
+why?
+
+showcase products.
+
+reusable & structured layout.
+
+better UX.
+
+how?
+
+dynamic component with props.
+
+map product list.
+
+pass data dynamically.
+
+steps 📝
+
+build reusable card component.
+
+set up grid/flexbox layout.
