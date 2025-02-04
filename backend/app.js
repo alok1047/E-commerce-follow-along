@@ -4,6 +4,7 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const ErrorHandler = require("./middleware/error");
+const product = require('./controller/product')
 
 const app = express();
 
@@ -32,6 +33,7 @@ const productRoutes = require("./controller/product");
 // Route Handling
 app.use("/api/v2/user", userRoutes);
 app.use("/api/v2/product", productRoutes);
+
 
 // Error Handling Middleware
 app.use(ErrorHandler);
