@@ -1,12 +1,11 @@
-import React from 'react'
-import Signup from "../components/auth/Signup";
-
+import React from "react"
+import  SignUp from "../Components/auth/SignUp"
 function SignupPage() {
-    return (
-        <div>
-            <Signup/>
-        </div>
-    )
+  return (
+    <div>
+      <SignUp/>
+    </div>
+  );
 }
 
 export default SignupPage;
