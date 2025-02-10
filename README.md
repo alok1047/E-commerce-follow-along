@@ -147,3 +147,49 @@ This form will take multiple product images images as input
 
 Note:- This lesson will help you in understanding the basic creating of products please feel free to experiment on adding more features like creating an admin access and allow only admin to upload products or create and shop profile and a user with only shop profile can upload.
 
+
+Milestone 10 - Product Schema & Endpoint 🚀
+
+Hey Kalvians! 👋
+
+In this milestone, we’ll create a Mongoose schema for products and an endpoint to store product details in MongoDB.
+
+Learning Goals 🎯
+	•	Define a product schema with validations (name, description, price, image URL, etc.).
+	•	Create a POST endpoint to validate and save product data.
+	•	Understand why validation matters for data integrity.
+
+Steps 📝
+	1.	Define Schema: Use Mongoose to structure product data with validations.
+	2.	Create Endpoint: Build a POST route to receive, validate, and store product details.
+
+
+Milestone 11 - Dynamic Product Display 🚀
+
+Hey Kalvians! 👋
+
+In this milestone, we’ll make our homepage dynamic by displaying all products from MongoDB. We’ll create an endpoint to fetch stored products and render them using our product card component.
+
+Learning Goals 🎯
+	•	Create an endpoint to fetch product data from MongoDB.
+	•	Receive and use this data on the frontend.
+	•	Dynamically display products using components.
+
+Steps 📝
+	1.	Backend: Write an endpoint to send all product data.
+	2.	Frontend: Fetch data and display it dynamically using the product card.
+
+
+	Milestone 12 - My Products Page 🚀
+
+Hey Kalvians! 👋
+
+In this milestone, we’ll build a My Products page that displays only the products added by the logged-in user. We’ll achieve this by filtering data based on the user’s email.
+
+Learning Goals 🎯
+	•	Create an endpoint to fetch products linked to a specific email from MongoDB.
+	•	Fetch and display filtered data dynamically on the frontend.
+
+Steps 📝
+	1.	Backend: Write an endpoint to fetch products based on the user’s email.
+	2.	Frontend: Fetch and display the filtered products using the product card component.
