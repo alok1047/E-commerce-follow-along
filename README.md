@@ -193,3 +193,24 @@ Learning Goals 🎯
 Steps 📝
 	1.	Backend: Write an endpoint to fetch products based on the user’s email.
 	2.	Frontend: Fetch and display the filtered products using the product card component.
+
+Welcome to Milestone 13! 🌟
+
+In this milestone, we will add functionality to edit uploaded products. This includes adding an Edit button and creating a backend endpoint to update product details in the MongoDB database.
+
+Learning Goals 🎯
+
+By the end of this milestone, you will learn:
+	•	How to write an endpoint to update existing data in MongoDB.
+	•	How to auto-fill a form with previous data and allow edits.
+
+Steps for Milestone 13 📝
+	1.	Backend: Create an endpoint to receive updated product data and update it in MongoDB.
+	2.	Frontend:
+	•	Add an Edit button to each product card.
+	•	On clicking Edit, populate the form with existing data.
+	•	Allow users to modify and save the changes.
+
+Note:
+
+This milestone will give you a detailed understanding of performing update operations in MongoDB.
