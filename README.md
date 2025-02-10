@@ -214,3 +214,18 @@ Steps for Milestone 13 📝
 Note:
 
 This milestone will give you a detailed understanding of performing update operations in MongoDB.
+
+Milestone #14
+
+In this milestone, we will add a Delete button to the product card and create a backend endpoint to remove a product from MongoDB using its ID.
+
+Learning Goals 🎯
+
+By the end of this milestone, you will learn:
+	•	How to write an endpoint to delete a product using its ID in MongoDB.
+
+Steps for Milestone 14 📝
+	1.	Backend: Create an endpoint to delete a product from MongoDB using its ID.
+	2.	Frontend:
+	•	Add a Delete button to each product card.
+	•	On clicking Delete, send the product ID to the server to remove it from the database.
