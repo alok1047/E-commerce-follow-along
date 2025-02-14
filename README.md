@@ -259,3 +259,31 @@ Steps 📝
 	1.	Create a Product Info Page to display all product details.
 	2.	Add a quantity selection option for users.
 	3.	Implement an “Add to Cart” button for easy purchase.
+
+Milestone 17 - Add to Cart 🛒
+
+Overview
+
+In this milestone, you’ll implement a backend endpoint to add products to a cart and store them in the database.
+
+Learning Goals 🎯
+	•	Update the user schema to store cart products.
+	•	Create an API endpoint to add product details to the cart.
+
+Steps 📝
+	1.	Define the cart schema to store products.
+	2.	Implement an endpoint to receive and store product details in the cart.
+
+Milestone 18 - Fetch Cart Products 🛒
+
+Overview
+
+In this milestone, you’ll implement a backend endpoint to fetch all products in a user’s cart for display on the cart page.
+
+Learning Goals 🎯
+	•	Create an endpoint to handle requests from the cart page.
+	•	Fetch all cart products using the user’s email.
+
+Steps 📝
+	1.	Define a backend endpoint for the cart page.
+	2.	Implement logic to retrieve products from the cart based on the user’s email.
