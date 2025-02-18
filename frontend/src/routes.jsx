@@ -5,4 +5,5 @@ import CreateProduct from "./Pages/createProduct";
 import MyProducts from "./Pages/myProducts";
 import Cart from "./Pages/cart";
 import ProductDetails from "./pages/productDetails.jsx";
-export {LoginPage, SignupPage, Home, CreateProduct , MyProducts, Cart, ProductDetails};
+import Profile from "./pages/profile.jsx";
+export {LoginPage, SignupPage, Home, CreateProduct , MyProducts, Cart, ProductDetails , Profile};
