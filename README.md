@@ -341,3 +341,16 @@ Steps 📝
 	1.	Build the address form page.
 	2.	Implement state management for the form inputs.
 	3.	Enable navigation from the profile page to the form.
+
+Milestone 22 - Store User Address 🏠
+
+Learning Goals 🎯
+
+By the end of this milestone, you will:
+✅ Create a backend endpoint to store user addresses in the database.
+
+Steps 📝
+	1.	Create an endpoint to receive the address from the frontend form.
+	2.	Append the address to the address array inside the user collection.
+	3.	Ensure proper request validation and error handling.
+
