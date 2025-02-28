@@ -354,3 +354,32 @@ Steps 📝
 	2.	Append the address to the address array inside the user collection.
 	3.	Ensure proper request validation and error handling.
 
+# Milestone 23 🚀  
+
+## Overview  
+In this milestone, we will:  
+- Add a **"Place Order"** button in the cart.  
+- Create a **Select Address** page for choosing a delivery address.  
+- Write a **Mongoose schema** for storing order details.  
+
+## Steps  
+1. Add a **Place Order** button in the cart that navigates to the Select Address page.  
+2. Create a **Select Address** page displaying all saved addresses with a selection option.  
+3. Implement a **backend endpoint** to fetch user addresses.  
+
+### Note  
+This milestone helps in understanding how to implement the **place order** functionality.  
+
+# Milestone 24 🚀  
+
+## Overview  
+In this milestone, we will create an **Order Confirmation** page to display order details.  
+
+## Steps  
+1. Show all **products** being ordered.  
+2. Display the **selected delivery address**.  
+3. Show the **total cart value**.  
+4. Add a **"Place Order"** button at the bottom.  
+
+### Note  
+This milestone helps in understanding how to implement the **place order** functionality.  
