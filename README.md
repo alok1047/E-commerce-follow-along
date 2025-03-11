@@ -383,3 +383,24 @@ In this milestone, we will create an **Order Confirmation** page to display orde
 
 ### Note  
 This milestone helps in understanding how to implement the **place order** functionality.  
+
+
+#Milestone 25 - Place Order API 🚀
+
+In this milestone, we created a backend endpoint for placing orders.
+
+🛠 Steps Implemented:
+	•	Received products, user, and address details.
+	•	Retrieved _id of the user using their email.
+	•	Created separate orders for each product with the same address.
+	•	Stored order details in the MongoDB orders collection.
+
+Milestone 26 - Get User Orders API 🚀
+
+In this milestone, we created a backend endpoint to retrieve all orders of a user.
+
+🛠 Steps Implemented:
+	•	Received user email from the request.
+	•	Retrieved _id of the user using their email.
+	•	Fetched all orders associated with the user from the MongoDB orders collection.
+	•	Sent the user’s orders in the response.
