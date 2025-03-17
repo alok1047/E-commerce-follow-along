@@ -404,3 +404,28 @@ In this milestone, we created a backend endpoint to retrieve all orders of a use
 	•	Retrieved _id of the user using their email.
 	•	Fetched all orders associated with the user from the MongoDB orders collection.
 	•	Sent the user’s orders in the response.
+
+Milestone 27 - My Orders Page 🛒
+
+Overview
+
+Create a frontend page to display all user orders.
+
+Steps
+	1.	Build a My Orders page.
+	2.	Send a GET request to the /my-orders endpoint.
+	3.	Pass the user’s email to retrieve orders.
+	4.	Display the fetched orders.
+	5.	Add My Orders to the navbar for easy access.
+
+Milestone 28 - Cancel Order Feature ❌
+
+Overview
+
+Add a Cancel Order button and create a backend endpoint to handle cancellations.
+
+Steps
+	1.	Add a Cancel Order button for each order in My Orders.
+	2.	Hide the button if the order is already canceled.
+	3.	Create a backend endpoint to receive the order-id.
+	4.	Retrieve the order, update its status to canceled, and save.
