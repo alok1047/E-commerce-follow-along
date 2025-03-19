@@ -429,3 +429,22 @@ Steps
 	2.	Hide the button if the order is already canceled.
 	3.	Create a backend endpoint to receive the order-id.
 	4.	Retrieve the order, update its status to canceled, and save.
+
+	Milestone 29 - PayPal Payment Integration 🚀
+
+Overview
+
+Learn how to integrate an online payment gateway using the PayPal API.
+
+Learning Goals 🎯
+	•	Use the PayPal API for payments.
+	•	Implement an online payment system.
+
+Steps 📝
+	1.	Create a PayPal Developer Account here.
+	2.	Set up a sandbox account and save its UserID.
+	3.	Copy and save your Client ID from the sandbox settings.
+	4.	On the Order Confirmation page:
+	•	Add radio buttons for COD and Online Payment.
+	•	Show the PayPal button only when Online Payment is selected.
+
