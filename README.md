@@ -448,3 +448,14 @@ Steps 📝
 	•	Add radio buttons for COD and Online Payment.
 	•	Show the PayPal button only when Online Payment is selected.
 
+Milestone 30 - PayPal Integration 💳
+
+Integrate PayPal API for online payments (builds on Milestone 29).
+
+Steps 🛠️
+	1.	Get your PayPal sandbox UserID.
+	2.	Install: npm install @paypal/react-paypal-js
+	3.	Use PayPalScriptProvider to enable payments.
+	4.	Implement payments with your client key.
+
+Gain hands-on experience in online payment integration! 🚀
