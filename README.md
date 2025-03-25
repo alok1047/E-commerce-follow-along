@@ -459,3 +459,19 @@ Steps 🛠️
 	4.	Implement payments with your client key.
 
 Gain hands-on experience in online payment integration! 🚀
+
+
+Milestone 31 - Redux Global State 🌍
+
+Learning Goals 🎯
+	•	Use Redux for global state management.
+	•	Store and manage the user email in the global state.
+
+Steps 🛠️
+	1.	Install: npm install react-redux
+	2.	Create a store folder with store.js & userActions.js
+	3.	Configure store.js with userReducer for email state.
+	4.	Write setEmail function in userActions.js.
+	5.	Wrap <App> inside <Provider> with store in index.js.
+
+Next: Setting & accessing the email state across files! 🚀
