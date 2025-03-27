@@ -475,3 +475,19 @@ Steps 🛠️
 	5.	Wrap <App> inside <Provider> with store in index.js.
 
 Next: Setting & accessing the email state across files! 🚀
+
+Welcome to Milestone 32! 🌟
+
+In this milestone, we will add the email to the global state using Redux and access it across all pages.
+
+Learning Goals 🎯
+
+By the end of this milestone, you will:
+	•	Use Redux to store the email in the global state.
+	•	Access the stored email across all pages using useSelector.
+
+Steps for Milestone 32 📝
+	1.	In the Login page, use the dispatch method to store the email in the global state.
+	2.	In all remaining pages, access the stored email using useSelector.
+
+This lesson will help you understand how to use Redux for global state management. 🚀
